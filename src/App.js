@@ -12,9 +12,9 @@ function App () {
   return (
     <div>
       <div>Personal Digital Assistants</div>
-      <ProfileCard title="Alexa" handle="@alex99"/>
-      <ProfileCard title="Cortana" handle="@cortana32"/>
-      <ProfileCard title="Siri" handle="@siri01"/>
+      <ProfileCard title="Alexa" handle="@alex99" image={AlexaImage}/>
+      <ProfileCard title="Cortana" handle="@cortana32" image={CortanaImage}/>
+      <ProfileCard title="Siri" handle="@siri01" image={SiriImage}/>
     </div>
   );
 }
